@@ -400,7 +400,7 @@ const updateDog = (req, res) => {
     }
 
     let updatedDoc = doc;
-    updatedDoc++;
+    updatedDoc.age++;
 
     const savePromise = updatedDoc.save();
 
